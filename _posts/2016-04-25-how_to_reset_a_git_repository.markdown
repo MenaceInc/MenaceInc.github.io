@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "How to reset a git repository"
-date: 2016-04-25
+date: "2016-04-25 12:00:00 +0100"
 categories: git
 ---
+### Reset git repo
 
 So, you have a repo on git which you're absolutely *certain* you won't need to look through earlier commits?
 You want a simple reset of the repo with the current state of the code used as the initial commit?
