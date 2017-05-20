@@ -163,6 +163,7 @@ pre {
  * Wrapper
  */
 .wrapper {
+  margin-top: 5px;
   background-color: #fdfdfd;
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
