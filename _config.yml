@@ -25,8 +25,11 @@ url: "http://menaceinc.com" # the base hostname & protocol for your site, e.g. h
 twitter_username: MenaceInc
 github_username:  MenaceInc
 
+
+permalink: /:year/:month/:title.html
 # Build settings
 markdown: kramdown
+include: ["_pages"]
 exclude:
   - Gemfile
   - Gemfile.lock

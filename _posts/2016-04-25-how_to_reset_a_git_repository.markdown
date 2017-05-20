@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quick and easy way to reset your git repo"
+title: "How to reset a git repository"
 date: 2016-04-25
 categories: git
 ---

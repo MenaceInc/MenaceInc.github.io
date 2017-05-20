@@ -10,8 +10,6 @@ DOB: Sometime in '88
 
 Residence: London, UK
 
-
-
 If you feel so inclined to read my rambling from day to day, you can follow me [here on Twitter](http://twitter.com/menaceinc).
 
 You can find my [GitHub here](http://github.com/menaceinc).
