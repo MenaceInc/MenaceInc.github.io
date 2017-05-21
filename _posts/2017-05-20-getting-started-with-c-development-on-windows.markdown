@@ -15,6 +15,7 @@ The very first thing you'll need to do is make sure all the packages are up to d
 ```shell
 pacman -Syu
 ```
+
 ![]({{ "assets/images/MSYS2_1_initial_setup.png" | relative_url }})
 
 
@@ -45,6 +46,7 @@ Here we will quickly write a small Hello, World program and ensure that it is ab
 Firstly though, you will need to switch to the MSYS2 MinGW environment which you can launch from your Start menu. Please ensure that you select the version that corresponds to the target system (MSYS2 MinGW 64bit for the 64bit environment).
 
 After you've done that, you can check to see if GCC is installed and running correctly using `g++ --version`. You should see output similar to the below.
+
 ![]({{ "assets/images/MSYS2_2_gcc_version.png" | relative_url }})
 
 From this shell, you can run `notepad test.cpp` in order to create a new .cpp file which will contain a C++ program.
@@ -67,6 +69,7 @@ g++ test.cpp -o hello && ./hello
 ```
 
 You should end up with something like the screenshot below.
+
 ![]({{ "assets/images/MSYS2_3_hello_world.png" | relative_url }})
 
 Congratulations! You just setup a basic C++ environment to develop programs in Windows.
