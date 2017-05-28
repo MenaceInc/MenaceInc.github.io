@@ -4,7 +4,6 @@ title: "Getting started with C++ development on Windows"
 date: "2017-05-20 17:07:08 +0100"
 categories: c++ windows
 ---
-### Initial MSYS2 setup
 
 Go to the [MSYS2 website](http://www.msys2.org/) and download the installer appropriate for your system.
 You'll need the msys2-i686-* installer for a 32bit version of Windows and the msys2-x86_64-* installer for 64bit Windows.

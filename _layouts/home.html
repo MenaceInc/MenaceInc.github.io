@@ -5,13 +5,12 @@ layout: default
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span>
-        <h2>
+    <li>
+      <span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span>
+      <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          {{ post.content | truncatewords:45}}
-        </h2>
-      </li>
+        </h2> {{ post.excerpt }}<a href="{{ post.url | relative_url }}">Read more</a>
+    </li>
     {% endfor %}
   </ul>
 </div>
