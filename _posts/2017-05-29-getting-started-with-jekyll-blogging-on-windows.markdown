@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting started with Jekyll blogging on Windows - Part 1"
+title: "Getting started with Jekyll blogging on Windows"
 date: "2017-05-29 11:33:49 +0100"
 ---
 
