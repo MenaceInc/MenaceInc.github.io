@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Embedding MSYS2 terminal in CLion (Windows)"
-date: "2010-03-25 03:33:00 +0000"
+date: "2019-03-25 03:33:00 +0000"
 ---
 
 Using CLion for C++ development is pretty great for numerous reasons and on Windows, I prefer using Mingw-w64 for compilation. The easiest way to [install it](https://menaceinc.com/2017/05/getting-started-with-c-development-on-windows/) and manage libraries in my opinion is to use MSYS2. MSYS2 provides a terminal interface via mintty which works well but it gets annoying having to jump between CLion and a separate terminal window. CLion however provides a method of embedding a terminal within the CLion UI.
