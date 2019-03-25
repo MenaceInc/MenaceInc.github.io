@@ -23,6 +23,9 @@ set MSYSTEM=MINGW64 && set CHERE_INVOKING=1 && C:\msys64\usr\bin\bash.exe --logi
 ```
 
 What the above command does is set two environment variables then launch the MSYS2 terminal directly.
+
 For MSYSTEM, you can use MSYS, MINGW32 or MINGW64 which corresponds to the base MSYS terminal, the 32bit Mingw-w64 terminal and the 64bit Mingw-w64 terminal respectively.
+
 The CHERE_INVOKING variable is so that the terminal will change the directory to the current project directory when the terminal button is clicked in CLion.
+
 All of the above assumes that the 64bit version of MSYS2 was installed to the default directory. If you have installed it elsewhere, you would need to adjust the filepaths accordingly.
