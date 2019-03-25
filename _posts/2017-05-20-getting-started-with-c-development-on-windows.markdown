@@ -55,7 +55,7 @@ Copy the below into Notepad and save the file (click File > Save or press Ctrl +
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Hello, World!\n";
     return 0;
 }
 ```
