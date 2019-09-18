@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting up a basic Debian home server \[ssh, samba, pi-hole, nextcloud, openvpn\]"
+title: "Setting up a basic Debian home server \[ssh, samba, nextcloud, pi-hole, openvpn\]"
 date: "2019-07-14 09:00:00 +0000"
 ---
 
@@ -34,6 +34,15 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 
 ### Install and setup Samba
+
+sudo apt install samba
+
+ensure have drives mounted and directories created that want to have available
+
+sudo cp /etc/samba/smb.conf /etc/samba/backup.conf
+
+sudo nano /etc/samba/smb.conf
+
 
 
 
